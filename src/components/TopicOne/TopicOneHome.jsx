@@ -3,10 +3,22 @@ import { HelloComponent } from "./HelloComponent";
 import { NameFunctionalComponent } from "./NameFunctionalComponent";
 import { HelloFunctionalComponent } from "./HelloFunctionalComponent";
 import { NameComponent } from "./NameComponent";
+import CompanyComponent from "./CompanyComponent";
+import TickerComponent from "./TickerComponent";
+import CompanyChangeFC from "./CompanyChangeFC";
+import CounterComponent from "./CounterComponent";
 
 export default function TopicOneHome() {
   return (
     <div>
+      <CounterComponent />
+      <hr />
+      <CompanyChangeFC />
+      <hr />
+      <TickerComponent />
+      <hr />
+      <CompanyComponent />
+      <hr />
       <HelloComponent />
       <hr />
       <HelloFunctionalComponent />
